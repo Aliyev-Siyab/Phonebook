@@ -42,4 +42,3 @@ task qa1(type:Test) {
         systemProperty 'browser',"${browser}"
     }
 }
-

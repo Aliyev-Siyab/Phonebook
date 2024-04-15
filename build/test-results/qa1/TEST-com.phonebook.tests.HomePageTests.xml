@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.phonebook.tests.HomePageTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-04-10T09:23:53" hostname="DESKTOP-132KGSM" time="0.021">
+<testsuite name="com.phonebook.tests.HomePageTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-04-15T08:36:10" hostname="DESKTOP-PRAVRSQ" time="0.021">
   <properties/>
   <testcase name="isHomeComponentPresentTest" classname="com.phonebook.tests.HomePageTests" time="0.021"/>
-  <system-out><![CDATA[]]></system-out>
+  <system-out><![CDATA[10:36:10.514 [Test worker] INFO  com.phonebook.tests.TestBase -- Start test isHomeComponentPresentTest with data: []
+10:36:10.568 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED isHomeComponentPresentTest
+10:36:10.570 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+10:36:10.570 [Test worker] INFO  com.phonebook.tests.TestBase -- =============================================
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -34,7 +34,7 @@ public class DeleteContactTests extends TestBase {
         int sizeBefore = app.getContact().sizeOfContacts();
         app.getContact().removeContact();
 
-        app.getContact().pause(350);
+        app.getContact().pause(500);
         int sizeAfter = app.getContact().sizeOfContacts();
         Assert.assertEquals(sizeAfter, sizeBefore - 1);
 

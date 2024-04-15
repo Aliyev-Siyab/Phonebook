@@ -44,7 +44,7 @@ public class AddContactTests extends TestBase {
                 .setDescription(ContactData.DESC));
         app.getContact().clickOnSaveButton();
         // assert Contact is added by text
-        Assert.assertTrue(app.getContact().isContactCreated("Siyab"));
+        Assert.assertTrue(app.getContact().isContactCreated(ContactData.NAME));
     }
 
     @AfterMethod

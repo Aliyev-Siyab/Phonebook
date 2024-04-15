@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.phonebook.tests.LoginTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-04-10T09:23:53" hostname="DESKTOP-132KGSM" time="1.192">
+<testsuite name="com.phonebook.tests.LoginTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-04-15T08:36:10" hostname="DESKTOP-PRAVRSQ" time="2.22">
   <properties/>
-  <testcase name="loginPositivTest" classname="com.phonebook.tests.LoginTests" time="1.192"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="loginNegativeTestWithOutEmail" classname="com.phonebook.tests.LoginTests" time="1.407"/>
+  <testcase name="loginPositivTest" classname="com.phonebook.tests.LoginTests" time="0.777"/>
+  <system-out><![CDATA[10:36:10.575 [Test worker] INFO  com.phonebook.tests.TestBase -- Start test loginNegativeTestWithOutEmail with data: []
+10:36:12.003 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED loginNegativeTestWithOutEmail
+10:36:12.006 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+10:36:12.007 [Test worker] INFO  com.phonebook.tests.TestBase -- =============================================
+10:36:12.013 [Test worker] INFO  com.phonebook.tests.TestBase -- Start test loginPositivTest with data: []
+10:36:12.816 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED loginPositivTest
+10:36:12.817 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+10:36:12.817 [Test worker] INFO  com.phonebook.tests.TestBase -- =============================================
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
